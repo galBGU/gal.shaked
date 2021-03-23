@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <title>form exercise</title>
+</head>
+<body>
+<h1 style="font-family:Verdana">Students Who Got Vaccine</h1>
+<img src="Coronavirus-icon.png" alt="corona" width="100"><img src="covid-vaccine.png" alt="vaccine" width="100"><img src="bgu.png" alt="bgu" width="100">
+    <br>
+<h2 style="font-family:Verdana">If you already did the coronavirus vaccine, please fill the form below: </h2>
+<form name="vaccine">
+   <label for="fname" style="font-family:Verdana">First Name:</label>
+   <input type="text" id="fname">
+    <br><br>
+   <label for="lname" style="font-family:Verdana">Last Name:</label>
+   <input type="text" id="lname">
+    <br><br>
+   <label for="id" style="font-family:Verdana">ID:</label>
+   <input type="number" id="id">
+    <br><br>
+   <label for="age" style="font-family:Verdana">Age:</label>
+   <input type="number" id="age" min="0">
+    <br><br>
+   <label style="font-family:Verdana">Gender:</label>
+    <br><br>
+   <input type="radio" id="male" name="gender" value="male">
+   <label for="male" style="font-family:Verdana">Male</label>
+   <input type="radio" id="female" name="gender" value="female">
+   <label for="female" style="font-family:Verdana">Female</label>
+    <br><br>
+   <input type="submit" style="background-color:orange; font-family:Verdana">
+    <br><br>
+</form>
+<h2 style="font-family:Verdana">If you have any questions, please contact us:</h2>
+<form name="contact">
+   <label for="fullname" style="font-family:Verdana">Your Full Name:</label>
+   <input type="text" id="fullname">
+    <br><br>
+   <label for="mail" style="font-family:Verdana">Email:</label>
+   <input type="email" id="mail">
+    <br><br>
+   <label for="message" style="font-family:Verdana">Message:</label><br>
+   <textarea id="message" rows="5" cols="30" style="color:gray ; font-family:Verdana">Write your message here...</textarea>
+    <br><br>
+   <input type="button" value="Send" style="background-color:orange">
+</form>
+
+
+</body>
+</html>
